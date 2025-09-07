@@ -12,7 +12,7 @@
         body {
             -webkit-font-smoothing: antialiased;
             font-family: Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
-            background-image: url('https://raw.githubusercontent.com/we11cheng/we11cheng.github.io/master/bg.jpg');
+            background-image: url('https://wx4.sinaimg.cn/mw690/008yvKg7ly1i4pomfhg0aj31jk251ki6.jpg');
             font-size: 85%;
             margin: 0;
         }
@@ -44,7 +44,7 @@
 
 <body>
     <div class="content">
-        <h2>iPersistence，我们已经在一起了</h2>
+        <h2>#双笙陈元汐月光下振翅限定巡回#</h2>
         <div class="timer">
             <b id="d"></b> Days <b id="h"></b> Hours <b id="m"></b> Minutes <b id="s"></b> Seconds
         </div>
@@ -54,7 +54,7 @@
         function timer() {
           var date2= '2025/09/26 19:00:00';  //开始时间
           var date1 = new Date(); //结束时间
-          var t = date2.getTime() - new Date(date1).getTime();
+          var t = new Date(date2).getTime()-date1.getTime() ;
           var h = ~~(t / 1000 / 60 / 60 % 24);
           if (h < 10) {
             h = "0" + h;
